@@ -12,8 +12,8 @@ Adafruit_SSD1306 display = Adafruit_SSD1306(128, 64, &Wire, -1);
 const char* ssid = "OPPO Reno4 Pro";
 const char* password = "tonkla998";
 
-int GMTOffset = 18000;  //Replace with your GMT Offset in seconds
-int daylightOffset = 25200;  //Replace with your daylight savings offset in seconds
+int GMTOffset = 25200;  //Replace with your GMT Offset in seconds
+int daylightOffset = 0;  //Replace with your daylight savings offset in seconds
 
 const int speek = 0;
 const int LED = 2;
